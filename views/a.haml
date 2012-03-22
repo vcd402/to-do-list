@@ -1,0 +1,46 @@
+!!!
+%html
+    %head
+        %title To Do
+        %link{:rel => "stylesheet", :type => "text/css", :href => "/bootstrap.css" }
+        %link{:rel => "stylesheet", :type => "text/css", :href => "/bootstrap-responsive.css"}
+        %link{:rel => "stylesheet", :type => "text/css", :href => "/text2.css" }
+        
+    %body
+        .container
+            .span8.offset9
+                %h1
+                    USERNAME | SETTINGS | LOGOUT
+            .row.myrow
+                .span8
+                    %h2
+                        ALL | DUE | DONE | URGENT | +
+                    %ul
+                        %li Task:
+                        %li Start:
+                        %li End:
+                        %li Time:
+                        %li Reminder:
+                        %li Repeat:
+                        %li Priority:
+                        %li Notes:
+                        %li Status:
+                        %li Postpone/Prepone:
+                        %li Tags:
+                    %h3
+                        + 
+                    %h3
+                        ADD TASK 
+                    %h3
+                        VIEW CALENDER
+                .span2.pull-right
+                    %h4
+                        check schedule
+                    %ul.schedule
+                        %li monday
+                        %li tuesday
+                        %li wednesday
+                        %li thursday
+                        %li friday
+                        %li saturday
+                        %li sunday
