@@ -5,4 +5,4 @@ This project helps you organize your tasks and make a suitable schedule.
 ## Contact 
 	* Varshita
 	* vkhaitan09@gmail.com 
-	* 9986661798
+	
