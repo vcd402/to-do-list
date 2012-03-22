@@ -3,7 +3,7 @@ require 'rubygems'
 require 'sinatra'
 
 
-get '/' do
+get '/a' do
 	haml :a
 end
 
